@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>TaskStudent Pro</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+<h1>📚 TaskStudent Pro</h1>
+<button id="modo">🌙</button>
+</header>
+
+<div class="inputArea">
+<input type="text" id="nuevaTarea" placeholder="Escribe una tarea...">
+<button onclick="agregarTarea()">Agregar</button>
+</div>
+
+<div class="estadisticas">
+<p>Pendientes: <span id="pendientes">0</span></p>
+<p>Completadas: <span id="completadas">0</span></p>
+</div>
+
+<ul id="lista"></ul>
+
+</div>
+
+<script src="tareas.js"></script>
+
+</body>
+</html>
